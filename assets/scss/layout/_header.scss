@@ -1,0 +1,64 @@
+// .header{
+//   background: #69F0AE;
+//   font-size: 64px;
+// }
+
+// below added by angela
+
+header {
+  background-color: white;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 1.5em;
+}
+
+.logo img {
+  width: 14em;
+}
+
+.header-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2em;
+}
+
+.menu {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 2em;
+  font-weight: 700;
+}
+
+.menu li a {
+  color: $cus-grey66;
+  text-decoration: none;
+}
+
+.login-btn {
+  padding: 0.6em 1.5em;
+  font-size: 1rem;
+  text-align: center;
+  background-color: $primary;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: $secondary;
+}
+
+@media (max-width: 1024px) {
+  .menu {
+    display: none;
+  }
+}

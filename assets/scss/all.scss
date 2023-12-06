@@ -1,0 +1,13 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import './utils/variables';
+
+
+@import './layout/header.scss';
+@import './layout/footer.scss';
+
+
+@import './pages/index.scss';
+@import './pages/search.scss';
+@import './pages/individual-card.scss';
+
+@import "../../node_modules/bootstrap";
